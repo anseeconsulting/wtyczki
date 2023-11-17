@@ -1,24 +1,22 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group name="" groupLayer="" expanded="1" checked="Qt::Checked">
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group name="MEZOREGIONY" groupLayer="" expanded="0" checked="Qt::Unchecked">
+    <layer-tree-group checked="Qt::Unchecked" expanded="0" name="MEZOREGIONY">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer name="Mezoregiony" providerKey="postgres" legend_exp="" expanded="1" source="dbname='postgis' host=54.38.243.14 port=5432 user='devel' sslmode=disable key='id' srid=2180 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ochrona_przyrody&quot;.&quot;Mesoregions2018&quot; (geom)" checked="Qt::Checked" patch_size="-1,-1" id="Mesoregions2018_7d9461ec_3312_4e85_ad2a_163acc2581cc" legend_split_behavior="0">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" providerKey="postgres" name="Mezoregiony" id="Mesoregions2018_039b09ca_aec6_4c59_943a_ce08df20142a" patch_size="-1,-1" source="dbname='postgis' host=54.38.243.14 port=5432 user='devel' sslmode=disable key='id' srid=2180 type=MultiPolygon checkPrimaryKeyUnicity='0' table=&quot;ochrona_przyrody&quot;.&quot;Mesoregions2018&quot; (geom)" legend_exp="" legend_split_behavior="0">
         <customproperties>
-          <Option type="Map">
-            <Option name="cached_name" value="Mezoregiony" type="QString"/>
-          </Option>
+          <Option/>
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
-    <maplayer legendPlaceholderImage="" type="vector" simplifyMaxScale="1" geometry="Polygon" simplifyAlgorithm="0" simplifyLocal="1" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" wkbType="MultiPolygon" simplifyDrawingTol="1" styleCategories="AllStyleCategories" readOnly="0" simplifyDrawingHints="1" labelsEnabled="1" minScale="100000000" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" maxScale="0" symbologyReferenceScale="-1" autoRefreshEnabled="0">
+    <maplayer maxScale="0" simplifyMaxScale="1" refreshOnNotifyMessage="" geometry="Polygon" legendPlaceholderImage="" simplifyAlgorithm="0" readOnly="0" wkbType="MultiPolygon" labelsEnabled="1" hasScaleBasedVisibilityFlag="0" symbologyReferenceScale="-1" simplifyLocal="1" simplifyDrawingTol="1" type="vector" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" autoRefreshTime="0" minScale="100000000">
       <extent>
         <xmin>171677.55520000099204481</xmin>
         <ymin>133223.72520000100485049</ymin>
@@ -31,14 +29,14 @@
         <xmax>24.62129617982495233</xmax>
         <ymax>54.83782470988928992</ymax>
       </wgs84extent>
-      <id>Mesoregions2018_7d9461ec_3312_4e85_ad2a_163acc2581cc</id>
-      <datasource>dbname='postgis' host=54.38.243.14 port=5432 user='devel' sslmode=disable key='id' srid=2180 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ochrona_przyrody"."Mesoregions2018" (geom)</datasource>
+      <id>Mesoregions2018_039b09ca_aec6_4c59_943a_ce08df20142a</id>
+      <datasource>dbname='postgis' host=54.38.243.14 port=5432 user='devel' password='ohtah"mae4Xo' sslmode=disable key='id' srid=2180 type=MultiPolygon checkPrimaryKeyUnicity='0' table="ochrona_przyrody"."Mesoregions2018" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>Mezoregiony</layername>
       <srs>
-        <spatialrefsys nativeFormat="Wkt">
+        <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
           <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
           <srsid>171</srsid>
@@ -57,21 +55,11 @@
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
         <links/>
-        <dates/>
         <fees></fees>
         <encoding></encoding>
         <crs>
-          <spatialrefsys nativeFormat="Wkt">
+          <spatialrefsys>
             <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
             <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
             <srsid>171</srsid>
@@ -83,15 +71,7 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent>
-          <spatial dimensions="2" maxx="0" miny="0" crs="EPSG:2180" minx="0" maxy="0" minz="0" maxz="0"/>
-          <temporal>
-            <period>
-              <start></start>
-              <end></end>
-            </period>
-          </temporal>
-        </extent>
+        <extent/>
       </resourceMetadata>
       <provider encoding="">postgres</provider>
       <vectorjoins/>
@@ -109,147 +89,15 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal accumulate="0" mode="0" limitMode="0" startExpression="" enabled="0" endField="" endExpression="" durationField="" durationUnit="min" fixedDuration="0" startField="">
+      <temporal accumulate="0" limitMode="0" durationUnit="min" endField="" endExpression="" enabled="0" mode="0" startField="" durationField="" fixedDuration="0" startExpression="">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <elevation respectLayerSymbol="1" binding="Centroid" showMarkerSymbolInSurfacePlots="0" clamping="Terrain" symbology="Line" zscale="1" extrusionEnabled="0" zoffset="0" extrusion="0" type="IndividualFeatures">
-        <data-defined-properties>
-          <Option type="Map">
-            <Option name="name" value="" type="QString"/>
-            <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
-          </Option>
-        </data-defined-properties>
-        <profileLineSymbol>
-          <symbol force_rhr="0" name="" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="line">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option name="name" value="" type="QString"/>
-                <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
-              </Option>
-            </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine" id="{e21a5058-a0b4-430e-bf56-5f9b1b6c0fef}">
-              <Option type="Map">
-                <Option name="align_dash_pattern" value="0" type="QString"/>
-                <Option name="capstyle" value="square" type="QString"/>
-                <Option name="customdash" value="5;2" type="QString"/>
-                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="customdash_unit" value="MM" type="QString"/>
-                <Option name="dash_pattern_offset" value="0" type="QString"/>
-                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
-                <Option name="draw_inside_polygon" value="0" type="QString"/>
-                <Option name="joinstyle" value="bevel" type="QString"/>
-                <Option name="line_color" value="114,155,111,255" type="QString"/>
-                <Option name="line_style" value="solid" type="QString"/>
-                <Option name="line_width" value="0.6" type="QString"/>
-                <Option name="line_width_unit" value="MM" type="QString"/>
-                <Option name="offset" value="0" type="QString"/>
-                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="offset_unit" value="MM" type="QString"/>
-                <Option name="ring_filter" value="0" type="QString"/>
-                <Option name="trim_distance_end" value="0" type="QString"/>
-                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
-                <Option name="trim_distance_start" value="0" type="QString"/>
-                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
-                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
-                <Option name="use_custom_dash" value="0" type="QString"/>
-                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-              </Option>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
-                  <Option name="properties"/>
-                  <Option name="type" value="collection" type="QString"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </profileLineSymbol>
-        <profileFillSymbol>
-          <symbol force_rhr="0" name="" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="fill">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option name="name" value="" type="QString"/>
-                <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
-              </Option>
-            </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleFill" id="{2de81d16-c154-42ed-b30b-61f66399157f}">
-              <Option type="Map">
-                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="color" value="114,155,111,255" type="QString"/>
-                <Option name="joinstyle" value="bevel" type="QString"/>
-                <Option name="offset" value="0,0" type="QString"/>
-                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="offset_unit" value="MM" type="QString"/>
-                <Option name="outline_color" value="81,111,79,255" type="QString"/>
-                <Option name="outline_style" value="solid" type="QString"/>
-                <Option name="outline_width" value="0.2" type="QString"/>
-                <Option name="outline_width_unit" value="MM" type="QString"/>
-                <Option name="style" value="solid" type="QString"/>
-              </Option>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
-                  <Option name="properties"/>
-                  <Option name="type" value="collection" type="QString"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </profileFillSymbol>
-        <profileMarkerSymbol>
-          <symbol force_rhr="0" name="" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="marker">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option name="name" value="" type="QString"/>
-                <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
-              </Option>
-            </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker" id="{02c96647-0089-43de-9292-2796d898aa4d}">
-              <Option type="Map">
-                <Option name="angle" value="0" type="QString"/>
-                <Option name="cap_style" value="square" type="QString"/>
-                <Option name="color" value="114,155,111,255" type="QString"/>
-                <Option name="horizontal_anchor_point" value="1" type="QString"/>
-                <Option name="joinstyle" value="bevel" type="QString"/>
-                <Option name="name" value="diamond" type="QString"/>
-                <Option name="offset" value="0,0" type="QString"/>
-                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="offset_unit" value="MM" type="QString"/>
-                <Option name="outline_color" value="81,111,79,255" type="QString"/>
-                <Option name="outline_style" value="solid" type="QString"/>
-                <Option name="outline_width" value="0.2" type="QString"/>
-                <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="outline_width_unit" value="MM" type="QString"/>
-                <Option name="scale_method" value="diameter" type="QString"/>
-                <Option name="size" value="3" type="QString"/>
-                <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                <Option name="size_unit" value="MM" type="QString"/>
-                <Option name="vertical_anchor_point" value="1" type="QString"/>
-              </Option>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
-                  <Option name="properties"/>
-                  <Option name="type" value="collection" type="QString"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </profileMarkerSymbol>
-      </elevation>
-      <renderer-v2 enableorderby="0" symbollevels="1" referencescale="-1" type="singleSymbol" forceraster="0">
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="1" type="singleSymbol" referencescale="-1">
         <symbols>
-          <symbol force_rhr="0" name="0" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="fill">
+          <symbol name="0" force_rhr="0" alpha="1" clip_to_extent="1" type="fill">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -257,7 +105,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine" id="{ed81a029-8db5-43a1-b27f-b930a0ecc33e}">
+            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="round" type="QString"/>
@@ -287,6 +135,33 @@
                 <Option name="use_custom_dash" value="0" type="QString"/>
                 <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
               </Option>
+              <prop k="align_dash_pattern" v="0"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="dash_pattern_offset" v="0"/>
+              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="dash_pattern_offset_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="246,147,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="trim_distance_end" v="0"/>
+              <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="trim_distance_end_unit" v="MM"/>
+              <prop k="trim_distance_start" v="0"/>
+              <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="trim_distance_start_unit" v="MM"/>
+              <prop k="tweak_dash_pattern_on_corners" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -295,7 +170,7 @@
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer locked="0" enabled="1" pass="1" class="SimpleLine" id="{2b6a7d7b-5aa7-4d04-aa92-148d4eaf1a57}">
+            <layer class="SimpleLine" pass="1" locked="0" enabled="1">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="round" type="QString"/>
@@ -325,6 +200,33 @@
                 <Option name="use_custom_dash" value="0" type="QString"/>
                 <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
               </Option>
+              <prop k="align_dash_pattern" v="0"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="dash_pattern_offset" v="0"/>
+              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="dash_pattern_offset_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="161,0,254,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="trim_distance_end" v="0"/>
+              <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="trim_distance_end_unit" v="MM"/>
+              <prop k="trim_distance_start" v="0"/>
+              <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="trim_distance_start_unit" v="MM"/>
+              <prop k="tweak_dash_pattern_on_corners" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -340,12 +242,12 @@
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style forcedItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" fontUnderline="0" blendMode="0" textColor="133,0,210,255" fontWordSpacing="0" fieldName="n_mezo" multilineHeightUnit="Percentage" fontStrikeout="0" fontSizeUnit="Point" multilineHeight="1" allowHtml="0" textOrientation="horizontal" namedStyle="Bold" fontSize="10" fontLetterSpacing="0" textOpacity="1" fontFamily="Arial" legendString="Aa" previewBkgrdColor="255,255,255,255" useSubstitutions="0" forcedBold="0" isExpression="0" capitalization="0" fontWeight="75" fontKerning="1">
+          <text-style textColor="133,0,210,255" fontStrikeout="0" fontWeight="75" textOrientation="horizontal" fontWordSpacing="0" textOpacity="1" fontLetterSpacing="0" fontKerning="1" namedStyle="Bold" previewBkgrdColor="255,255,255,255" legendString="Aa" blendMode="0" fontSize="10" fontUnderline="0" allowHtml="0" fontFamily="Arial" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fieldName="n_mezo" capitalization="0" isExpression="0" fontItalic="0" multilineHeight="1" useSubstitutions="0">
             <families/>
-            <text-buffer bufferJoinStyle="128" bufferNoFill="1" bufferSizeUnits="MM" bufferBlendMode="0" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="1" bufferColor="250,250,250,255" bufferOpacity="0.75099999999999989"/>
-            <text-mask maskSizeUnits="MM" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSize="0" maskEnabled="0" maskedSymbolLayers="" maskType="0" maskOpacity="1"/>
-            <background shapeRadiiX="0" shapeBorderWidth="0" shapeRadiiUnit="Point" shapeOffsetX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeUnit="Point" shapeOffsetUnit="Point" shapeBorderWidthUnit="Point" shapeSizeType="0" shapeSizeY="0" shapeSVGFile="" shapeJoinStyle="64" shapeFillColor="255,255,255,255" shapeSizeX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeOpacity="1" shapeBlendMode="0" shapeRotationType="0" shapeRotation="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOffsetY="0" shapeType="0" shapeBorderColor="128,128,128,255">
-              <symbol force_rhr="0" name="markerSymbol" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="marker">
+            <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferOpacity="0.75099999999999989" bufferSize="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferColor="250,250,250,255" bufferJoinStyle="128" bufferDraw="1"/>
+            <text-mask maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskEnabled="0" maskSize="0" maskOpacity="1" maskType="0" maskJoinStyle="128"/>
+            <background shapeJoinStyle="64" shapeSizeX="0" shapeType="0" shapeOffsetY="0" shapeRadiiY="0" shapeOpacity="1" shapeSizeType="0" shapeRotationType="0" shapeRotation="0" shapeSizeY="0" shapeBorderWidth="0" shapeOffsetUnit="Point" shapeSVGFile="" shapeRadiiX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeRadiiUnit="Point" shapeOffsetX="0" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeBorderWidthUnit="Point" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeUnit="Point" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0">
+              <symbol name="markerSymbol" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
                 <data_defined_properties>
                   <Option type="Map">
                     <Option name="name" value="" type="QString"/>
@@ -353,7 +255,7 @@
                     <Option name="type" value="collection" type="QString"/>
                   </Option>
                 </data_defined_properties>
-                <layer locked="0" enabled="1" pass="0" class="SimpleMarker" id="">
+                <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
                   <Option type="Map">
                     <Option name="angle" value="0" type="QString"/>
                     <Option name="cap_style" value="square" type="QString"/>
@@ -375,6 +277,25 @@
                     <Option name="size_unit" value="MM" type="QString"/>
                     <Option name="vertical_anchor_point" value="1" type="QString"/>
                   </Option>
+                  <prop k="angle" v="0"/>
+                  <prop k="cap_style" v="square"/>
+                  <prop k="color" v="125,139,143,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="circle"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="35,35,35,255"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="2"/>
+                  <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
                   <data_defined_properties>
                     <Option type="Map">
                       <Option name="name" value="" type="QString"/>
@@ -384,7 +305,7 @@
                   </data_defined_properties>
                 </layer>
               </symbol>
-              <symbol force_rhr="0" name="fillSymbol" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="fill">
+              <symbol name="fillSymbol" force_rhr="0" alpha="1" clip_to_extent="1" type="fill">
                 <data_defined_properties>
                   <Option type="Map">
                     <Option name="name" value="" type="QString"/>
@@ -392,7 +313,7 @@
                     <Option name="type" value="collection" type="QString"/>
                   </Option>
                 </data_defined_properties>
-                <layer locked="0" enabled="1" pass="0" class="SimpleFill" id="">
+                <layer class="SimpleFill" pass="0" locked="0" enabled="1">
                   <Option type="Map">
                     <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                     <Option name="color" value="255,255,255,255" type="QString"/>
@@ -406,6 +327,17 @@
                     <Option name="outline_width_unit" value="Point" type="QString"/>
                     <Option name="style" value="solid" type="QString"/>
                   </Option>
+                  <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="color" v="255,255,255,255"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="128,128,128,255"/>
+                  <prop k="outline_style" v="no"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_unit" v="Point"/>
+                  <prop k="style" v="solid"/>
                   <data_defined_properties>
                     <Option type="Map">
                       <Option name="name" value="" type="QString"/>
@@ -416,7 +348,7 @@
                 </layer>
               </symbol>
             </background>
-            <shadow shadowRadiusUnit="MM" shadowOffsetDist="1" shadowRadius="1.5" shadowDraw="0" shadowOffsetGlobal="1" shadowOffsetUnit="MM" shadowScale="100" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowUnder="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowOpacity="0.69999999999999996" shadowBlendMode="6" shadowOffsetAngle="135"/>
+            <shadow shadowUnder="0" shadowScale="100" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOpacity="0.69999999999999996" shadowBlendMode="6" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowOffsetAngle="135" shadowRadiusAlphaOnly="0" shadowRadius="1.5" shadowRadiusUnit="MM" shadowColor="0,0,0,255" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0"/>
             <dd_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -426,9 +358,9 @@
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format autoWrapLength="0" formatNumbers="0" decimals="3" wrapChar="" addDirectionSymbol="0" rightDirectionSymbol=">" useMaxLineLengthForAutoWrap="1" plussign="0" leftDirectionSymbol="&lt;" placeDirectionSymbol="0" reverseDirectionSymbol="0" multilineAlign="3"/>
-          <placement maxCurvedCharAngleOut="-25" overrunDistanceUnit="MM" dist="0" overlapHandling="PreventOverlap" lineAnchorType="0" lineAnchorTextPoint="CenterOfText" placementFlags="10" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" polygonPlacementFlags="2" allowDegraded="0" xOffset="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorPercent="0.5" centroidInside="0" placement="0" yOffset="0" lineAnchorClipping="0" offsetType="0" offsetUnits="MM" overrunDistance="0" repeatDistanceUnits="MM" geometryGeneratorType="PointGeometry" rotationUnit="AngleDegrees" distUnits="MM" geometryGenerator="" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" priority="5" rotationAngle="0" quadOffset="4" maxCurvedCharAngleIn="25" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" layerType="PolygonGeometry" preserveRotation="1" fitInPolygonOnly="0" geometryGeneratorEnabled="0"/>
-          <rendering minFeatureSize="0" unplacedVisibility="0" zIndex="0" labelPerPart="0" mergeLines="0" fontMinPixelSize="3" scaleMin="0" scaleMax="0" obstacleType="1" drawLabels="1" scaleVisibility="0" fontMaxPixelSize="10000" fontLimitPixelSize="0" obstacleFactor="1" maxNumLabels="2000" obstacle="1" upsidedownLabels="0" limitNumLabels="0"/>
+          <text-format leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" addDirectionSymbol="0" placeDirectionSymbol="0" reverseDirectionSymbol="0" autoWrapLength="0" rightDirectionSymbol=">" multilineAlign="3" useMaxLineLengthForAutoWrap="1" plussign="0"/>
+          <placement maxCurvedCharAngleOut="-25" offsetType="0" dist="0" lineAnchorClipping="0" placement="0" overrunDistanceUnit="MM" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" distUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" offsetUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" overrunDistance="0" xOffset="0" geometryGeneratorType="PointGeometry" layerType="PolygonGeometry" placementFlags="10" lineAnchorType="0" fitInPolygonOnly="0" centroidWhole="0" quadOffset="4" preserveRotation="1" rotationUnit="AngleDegrees" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGenerator="" repeatDistance="0" polygonPlacementFlags="2" maxCurvedCharAngleIn="25" lineAnchorPercent="0.5" centroidInside="0" rotationAngle="0" priority="5" geometryGeneratorEnabled="0" yOffset="0" repeatDistanceUnits="MM"/>
+          <rendering unplacedVisibility="0" zIndex="0" mergeLines="0" obstacleType="1" drawLabels="1" scaleVisibility="0" fontMaxPixelSize="10000" upsidedownLabels="0" scaleMax="0" displayAll="0" minFeatureSize="0" limitNumLabels="0" obstacle="1" labelPerPart="0" scaleMin="0" maxNumLabels="2000" fontMinPixelSize="3" obstacleFactor="1" fontLimitPixelSize="0"/>
           <dd_properties>
             <Option type="Map">
               <Option name="name" value="" type="QString"/>
@@ -448,7 +380,7 @@
               <Option name="drawToAllParts" value="false" type="bool"/>
               <Option name="enabled" value="0" type="QString"/>
               <Option name="labelAnchorPoint" value="point_on_exterior" type="QString"/>
-              <Option name="lineSymbol" value="&lt;symbol force_rhr=&quot;0&quot; name=&quot;symbol&quot; clip_to_extent=&quot;1&quot; is_animated=&quot;0&quot; alpha=&quot;1&quot; frame_rate=&quot;10&quot; type=&quot;line&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer locked=&quot;0&quot; enabled=&quot;1&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot; id=&quot;{17c8e21c-916a-46af-9a82-7bfb2a090720}&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;align_dash_pattern&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;capstyle&quot; value=&quot;square&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash&quot; value=&quot;5;2&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;draw_inside_polygon&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;joinstyle&quot; value=&quot;bevel&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_color&quot; value=&quot;60,60,60,255&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_style&quot; value=&quot;solid&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_width&quot; value=&quot;0.3&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_width_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;ring_filter&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;tweak_dash_pattern_on_corners&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;use_custom_dash&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;width_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" type="QString"/>
+              <Option name="lineSymbol" value="&lt;symbol name=&quot;symbol&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot; type=&quot;line&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer class=&quot;SimpleLine&quot; pass=&quot;0&quot; locked=&quot;0&quot; enabled=&quot;1&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;align_dash_pattern&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;capstyle&quot; value=&quot;square&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash&quot; value=&quot;5;2&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;draw_inside_polygon&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;joinstyle&quot; value=&quot;bevel&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_color&quot; value=&quot;60,60,60,255&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_style&quot; value=&quot;solid&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_width&quot; value=&quot;0.3&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_width_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;ring_filter&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;tweak_dash_pattern_on_corners&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;use_custom_dash&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;width_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;prop k=&quot;align_dash_pattern&quot; v=&quot;0&quot;/>&lt;prop k=&quot;capstyle&quot; v=&quot;square&quot;/>&lt;prop k=&quot;customdash&quot; v=&quot;5;2&quot;/>&lt;prop k=&quot;customdash_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;customdash_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;dash_pattern_offset&quot; v=&quot;0&quot;/>&lt;prop k=&quot;dash_pattern_offset_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;dash_pattern_offset_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;draw_inside_polygon&quot; v=&quot;0&quot;/>&lt;prop k=&quot;joinstyle&quot; v=&quot;bevel&quot;/>&lt;prop k=&quot;line_color&quot; v=&quot;60,60,60,255&quot;/>&lt;prop k=&quot;line_style&quot; v=&quot;solid&quot;/>&lt;prop k=&quot;line_width&quot; v=&quot;0.3&quot;/>&lt;prop k=&quot;line_width_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;offset&quot; v=&quot;0&quot;/>&lt;prop k=&quot;offset_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;offset_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;ring_filter&quot; v=&quot;0&quot;/>&lt;prop k=&quot;trim_distance_end&quot; v=&quot;0&quot;/>&lt;prop k=&quot;trim_distance_end_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;trim_distance_end_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;trim_distance_start&quot; v=&quot;0&quot;/>&lt;prop k=&quot;trim_distance_start_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;trim_distance_start_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;tweak_dash_pattern_on_corners&quot; v=&quot;0&quot;/>&lt;prop k=&quot;use_custom_dash&quot; v=&quot;0&quot;/>&lt;prop k=&quot;width_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" type="QString"/>
               <Option name="minLength" value="0" type="double"/>
               <Option name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
               <Option name="minLengthUnit" value="MM" type="QString"/>
@@ -475,12 +407,12 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory height="15" barWidth="5" lineSizeType="MM" scaleDependency="Area" spacingUnitScale="3x:0,0,0,0,0,0" spacingUnit="MM" backgroundColor="#ffffff" penWidth="0" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" showAxis="1" spacing="5" width="15" rotationOffset="270" scaleBasedVisibility="0" enabled="0" penColor="#000000" penAlpha="255" opacity="1" minimumSize="0" minScaleDenominator="0" direction="0" sizeType="MM" labelPlacementMethod="XHeight" diagramOrientation="Up">
-          <fontProperties style="" italic="0" bold="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" strikethrough="0" underline="0"/>
-          <attribute label="" field="" colorOpacity="1" color="#000000"/>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory width="15" diagramOrientation="Up" backgroundAlpha="255" showAxis="1" scaleBasedVisibility="0" sizeType="MM" labelPlacementMethod="XHeight" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" spacing="5" spacingUnit="MM" penColor="#000000" height="15" penWidth="0" backgroundColor="#ffffff" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" spacingUnitScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" barWidth="5" rotationOffset="270" enabled="0" direction="0" minimumSize="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label="" colorOpacity="1"/>
           <axisSymbol>
-            <symbol force_rhr="0" name="" clip_to_extent="1" is_animated="0" alpha="1" frame_rate="10" type="line">
+            <symbol name="" force_rhr="0" alpha="1" clip_to_extent="1" type="line">
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" value="" type="QString"/>
@@ -488,7 +420,7 @@
                   <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
-              <layer locked="0" enabled="1" pass="0" class="SimpleLine" id="{40737262-116a-4e51-b731-37a8ee6f5f33}">
+              <layer class="SimpleLine" pass="0" locked="0" enabled="1">
                 <Option type="Map">
                   <Option name="align_dash_pattern" value="0" type="QString"/>
                   <Option name="capstyle" value="square" type="QString"/>
@@ -518,6 +450,33 @@
                   <Option name="use_custom_dash" value="0" type="QString"/>
                   <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
                 </Option>
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="trim_distance_end" v="0"/>
+                <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_end_unit" v="MM"/>
+                <prop k="trim_distance_start" v="0"/>
+                <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_start_unit" v="MM"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
                 <data_defined_properties>
                   <Option type="Map">
                     <Option name="name" value="" type="QString"/>
@@ -530,7 +489,7 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings linePlacementFlags="18" obstacle="0" priority="0" showAll="1" zIndex="0" placement="1" dist="0">
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" obstacle="0" showAll="1" zIndex="0" placement="1" priority="0">
         <properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -553,105 +512,105 @@
       <referencedLayers/>
       <fieldConfiguration>
         <field configurationFlags="None" name="id">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="k_mezo">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_mezo">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_mezo_eng">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="k_mezo_old">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_mezo_old">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="k_makr">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_makr">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="k_pprw">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_pprw">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="k_prw">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_prw">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="k_megr">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="n_megr">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="pow_km">
-          <editWidget type="TextEdit">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
@@ -659,89 +618,72 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="k_mezo"/>
-        <alias name="" index="2" field="n_mezo"/>
-        <alias name="" index="3" field="n_mezo_eng"/>
-        <alias name="" index="4" field="k_mezo_old"/>
-        <alias name="" index="5" field="n_mezo_old"/>
-        <alias name="" index="6" field="k_makr"/>
-        <alias name="" index="7" field="n_makr"/>
-        <alias name="" index="8" field="k_pprw"/>
-        <alias name="" index="9" field="n_pprw"/>
-        <alias name="" index="10" field="k_prw"/>
-        <alias name="" index="11" field="n_prw"/>
-        <alias name="" index="12" field="k_megr"/>
-        <alias name="" index="13" field="n_megr"/>
-        <alias name="" index="14" field="pow_km"/>
+        <alias field="id" name="" index="0"/>
+        <alias field="k_mezo" name="" index="1"/>
+        <alias field="n_mezo" name="" index="2"/>
+        <alias field="n_mezo_eng" name="" index="3"/>
+        <alias field="k_mezo_old" name="" index="4"/>
+        <alias field="n_mezo_old" name="" index="5"/>
+        <alias field="k_makr" name="" index="6"/>
+        <alias field="n_makr" name="" index="7"/>
+        <alias field="k_pprw" name="" index="8"/>
+        <alias field="n_pprw" name="" index="9"/>
+        <alias field="k_prw" name="" index="10"/>
+        <alias field="n_prw" name="" index="11"/>
+        <alias field="k_megr" name="" index="12"/>
+        <alias field="n_megr" name="" index="13"/>
+        <alias field="pow_km" name="" index="14"/>
       </aliases>
-      <splitPolicies>
-        <policy policy="Duplicate" field="id"/>
-        <policy policy="Duplicate" field="k_mezo"/>
-        <policy policy="Duplicate" field="n_mezo"/>
-        <policy policy="Duplicate" field="n_mezo_eng"/>
-        <policy policy="Duplicate" field="k_mezo_old"/>
-        <policy policy="Duplicate" field="n_mezo_old"/>
-        <policy policy="Duplicate" field="k_makr"/>
-        <policy policy="Duplicate" field="n_makr"/>
-        <policy policy="Duplicate" field="k_pprw"/>
-        <policy policy="Duplicate" field="n_pprw"/>
-        <policy policy="Duplicate" field="k_prw"/>
-        <policy policy="Duplicate" field="n_prw"/>
-        <policy policy="Duplicate" field="k_megr"/>
-        <policy policy="Duplicate" field="n_megr"/>
-        <policy policy="Duplicate" field="pow_km"/>
-      </splitPolicies>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="id"/>
-        <default expression="" applyOnUpdate="0" field="k_mezo"/>
-        <default expression="" applyOnUpdate="0" field="n_mezo"/>
-        <default expression="" applyOnUpdate="0" field="n_mezo_eng"/>
-        <default expression="" applyOnUpdate="0" field="k_mezo_old"/>
-        <default expression="" applyOnUpdate="0" field="n_mezo_old"/>
-        <default expression="" applyOnUpdate="0" field="k_makr"/>
-        <default expression="" applyOnUpdate="0" field="n_makr"/>
-        <default expression="" applyOnUpdate="0" field="k_pprw"/>
-        <default expression="" applyOnUpdate="0" field="n_pprw"/>
-        <default expression="" applyOnUpdate="0" field="k_prw"/>
-        <default expression="" applyOnUpdate="0" field="n_prw"/>
-        <default expression="" applyOnUpdate="0" field="k_megr"/>
-        <default expression="" applyOnUpdate="0" field="n_megr"/>
-        <default expression="" applyOnUpdate="0" field="pow_km"/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="k_mezo" applyOnUpdate="0" expression=""/>
+        <default field="n_mezo" applyOnUpdate="0" expression=""/>
+        <default field="n_mezo_eng" applyOnUpdate="0" expression=""/>
+        <default field="k_mezo_old" applyOnUpdate="0" expression=""/>
+        <default field="n_mezo_old" applyOnUpdate="0" expression=""/>
+        <default field="k_makr" applyOnUpdate="0" expression=""/>
+        <default field="n_makr" applyOnUpdate="0" expression=""/>
+        <default field="k_pprw" applyOnUpdate="0" expression=""/>
+        <default field="n_pprw" applyOnUpdate="0" expression=""/>
+        <default field="k_prw" applyOnUpdate="0" expression=""/>
+        <default field="n_prw" applyOnUpdate="0" expression=""/>
+        <default field="k_megr" applyOnUpdate="0" expression=""/>
+        <default field="n_megr" applyOnUpdate="0" expression=""/>
+        <default field="pow_km" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" notnull_strength="1" unique_strength="1" constraints="3" field="id"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="k_mezo"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_mezo"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_mezo_eng"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="k_mezo_old"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_mezo_old"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="k_makr"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_makr"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="k_pprw"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_pprw"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="k_prw"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_prw"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="k_megr"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="n_megr"/>
-        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="pow_km"/>
+        <constraint unique_strength="1" field="id" constraints="3" notnull_strength="1" exp_strength="0"/>
+        <constraint unique_strength="0" field="k_mezo" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_mezo" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_mezo_eng" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="k_mezo_old" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_mezo_old" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="k_makr" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_makr" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="k_pprw" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_pprw" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="k_prw" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_prw" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="k_megr" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="n_megr" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="pow_km" constraints="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="k_mezo"/>
-        <constraint exp="" desc="" field="n_mezo"/>
-        <constraint exp="" desc="" field="n_mezo_eng"/>
-        <constraint exp="" desc="" field="k_mezo_old"/>
-        <constraint exp="" desc="" field="n_mezo_old"/>
-        <constraint exp="" desc="" field="k_makr"/>
-        <constraint exp="" desc="" field="n_makr"/>
-        <constraint exp="" desc="" field="k_pprw"/>
-        <constraint exp="" desc="" field="n_pprw"/>
-        <constraint exp="" desc="" field="k_prw"/>
-        <constraint exp="" desc="" field="n_prw"/>
-        <constraint exp="" desc="" field="k_megr"/>
-        <constraint exp="" desc="" field="n_megr"/>
-        <constraint exp="" desc="" field="pow_km"/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="k_mezo" exp="" desc=""/>
+        <constraint field="n_mezo" exp="" desc=""/>
+        <constraint field="n_mezo_eng" exp="" desc=""/>
+        <constraint field="k_mezo_old" exp="" desc=""/>
+        <constraint field="n_mezo_old" exp="" desc=""/>
+        <constraint field="k_makr" exp="" desc=""/>
+        <constraint field="n_makr" exp="" desc=""/>
+        <constraint field="k_pprw" exp="" desc=""/>
+        <constraint field="n_pprw" exp="" desc=""/>
+        <constraint field="k_prw" exp="" desc=""/>
+        <constraint field="n_prw" exp="" desc=""/>
+        <constraint field="k_megr" exp="" desc=""/>
+        <constraint field="n_megr" exp="" desc=""/>
+        <constraint field="pow_km" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
@@ -749,22 +691,22 @@
       </attributeactions>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column name="id" hidden="0" width="-1" type="field"/>
-          <column name="k_mezo" hidden="0" width="-1" type="field"/>
-          <column name="n_mezo" hidden="0" width="-1" type="field"/>
-          <column name="n_mezo_eng" hidden="0" width="-1" type="field"/>
-          <column name="k_mezo_old" hidden="0" width="-1" type="field"/>
-          <column name="n_mezo_old" hidden="0" width="-1" type="field"/>
-          <column name="k_makr" hidden="0" width="-1" type="field"/>
-          <column name="n_makr" hidden="0" width="-1" type="field"/>
-          <column name="k_pprw" hidden="0" width="-1" type="field"/>
-          <column name="n_pprw" hidden="0" width="-1" type="field"/>
-          <column name="k_prw" hidden="0" width="-1" type="field"/>
-          <column name="n_prw" hidden="0" width="-1" type="field"/>
-          <column name="k_megr" hidden="0" width="-1" type="field"/>
-          <column name="n_megr" hidden="0" width="-1" type="field"/>
-          <column name="pow_km" hidden="0" width="-1" type="field"/>
-          <column hidden="1" width="-1" type="actions"/>
+          <column width="-1" name="id" hidden="0" type="field"/>
+          <column width="-1" name="k_mezo" hidden="0" type="field"/>
+          <column width="-1" name="n_mezo" hidden="0" type="field"/>
+          <column width="-1" name="n_mezo_eng" hidden="0" type="field"/>
+          <column width="-1" name="k_mezo_old" hidden="0" type="field"/>
+          <column width="-1" name="n_mezo_old" hidden="0" type="field"/>
+          <column width="-1" name="k_makr" hidden="0" type="field"/>
+          <column width="-1" name="n_makr" hidden="0" type="field"/>
+          <column width="-1" name="k_pprw" hidden="0" type="field"/>
+          <column width="-1" name="n_pprw" hidden="0" type="field"/>
+          <column width="-1" name="k_prw" hidden="0" type="field"/>
+          <column width="-1" name="n_prw" hidden="0" type="field"/>
+          <column width="-1" name="k_megr" hidden="0" type="field"/>
+          <column width="-1" name="n_megr" hidden="0" type="field"/>
+          <column width="-1" name="pow_km" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -796,44 +738,44 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field name="id" editable="1"/>
-        <field name="k_makr" editable="1"/>
-        <field name="k_megr" editable="1"/>
-        <field name="k_mezo" editable="1"/>
-        <field name="k_mezo_old" editable="1"/>
-        <field name="k_pprw" editable="1"/>
-        <field name="k_prw" editable="1"/>
-        <field name="mezo_k" editable="1"/>
-        <field name="mezo_n" editable="1"/>
-        <field name="n_makr" editable="1"/>
-        <field name="n_megr" editable="1"/>
-        <field name="n_mezo" editable="1"/>
-        <field name="n_mezo_eng" editable="1"/>
-        <field name="n_mezo_old" editable="1"/>
-        <field name="n_pprw" editable="1"/>
-        <field name="n_prw" editable="1"/>
-        <field name="opis" editable="1"/>
-        <field name="pow_km" editable="1"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="k_makr"/>
+        <field editable="1" name="k_megr"/>
+        <field editable="1" name="k_mezo"/>
+        <field editable="1" name="k_mezo_old"/>
+        <field editable="1" name="k_pprw"/>
+        <field editable="1" name="k_prw"/>
+        <field editable="1" name="mezo_k"/>
+        <field editable="1" name="mezo_n"/>
+        <field editable="1" name="n_makr"/>
+        <field editable="1" name="n_megr"/>
+        <field editable="1" name="n_mezo"/>
+        <field editable="1" name="n_mezo_eng"/>
+        <field editable="1" name="n_mezo_old"/>
+        <field editable="1" name="n_pprw"/>
+        <field editable="1" name="n_prw"/>
+        <field editable="1" name="opis"/>
+        <field editable="1" name="pow_km"/>
       </editable>
       <labelOnTop>
-        <field name="id" labelOnTop="0"/>
-        <field name="k_makr" labelOnTop="0"/>
-        <field name="k_megr" labelOnTop="0"/>
-        <field name="k_mezo" labelOnTop="0"/>
-        <field name="k_mezo_old" labelOnTop="0"/>
-        <field name="k_pprw" labelOnTop="0"/>
-        <field name="k_prw" labelOnTop="0"/>
-        <field name="mezo_k" labelOnTop="0"/>
-        <field name="mezo_n" labelOnTop="0"/>
-        <field name="n_makr" labelOnTop="0"/>
-        <field name="n_megr" labelOnTop="0"/>
-        <field name="n_mezo" labelOnTop="0"/>
-        <field name="n_mezo_eng" labelOnTop="0"/>
-        <field name="n_mezo_old" labelOnTop="0"/>
-        <field name="n_pprw" labelOnTop="0"/>
-        <field name="n_prw" labelOnTop="0"/>
-        <field name="opis" labelOnTop="0"/>
-        <field name="pow_km" labelOnTop="0"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="k_makr"/>
+        <field labelOnTop="0" name="k_megr"/>
+        <field labelOnTop="0" name="k_mezo"/>
+        <field labelOnTop="0" name="k_mezo_old"/>
+        <field labelOnTop="0" name="k_pprw"/>
+        <field labelOnTop="0" name="k_prw"/>
+        <field labelOnTop="0" name="mezo_k"/>
+        <field labelOnTop="0" name="mezo_n"/>
+        <field labelOnTop="0" name="n_makr"/>
+        <field labelOnTop="0" name="n_megr"/>
+        <field labelOnTop="0" name="n_mezo"/>
+        <field labelOnTop="0" name="n_mezo_eng"/>
+        <field labelOnTop="0" name="n_mezo_old"/>
+        <field labelOnTop="0" name="n_pprw"/>
+        <field labelOnTop="0" name="n_prw"/>
+        <field labelOnTop="0" name="opis"/>
+        <field labelOnTop="0" name="pow_km"/>
       </labelOnTop>
       <reuseLastValue>
         <field name="id" reuseLastValue="0"/>
@@ -858,7 +800,7 @@ def my_form_open(dialog, layer, feature):
       <dataDefinedFieldProperties/>
       <widgets/>
       <previewExpression>"mezo_k"</previewExpression>
-      <mapTip enabled="1"></mapTip>
+      <mapTip></mapTip>
     </maplayer>
   </maplayers>
 </qlr>
