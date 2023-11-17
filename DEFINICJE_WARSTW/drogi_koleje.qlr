@@ -4,403 +4,82 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="EWIDENCJA GRUNTÓW">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="DROGI I KOLEJE">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer expanded="0" id="Punkty_adresowe_2b4106cb_4389_4f0b_9b3e_502596522671" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=prg-adresy&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Punkty adresowe">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="GDDKiA">
         <customproperties>
           <Option/>
         </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" id="Ulice_1399d7f5_2a79_4fe3_a745_9dd78bd3cca3" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=prg-ulice&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Ulice">
+        <layer-tree-layer expanded="0" id="W_z_y__obiekty_in_ynieryjne_cbb409a8_b15e_4bba_b9fd_fb9e2b8dd416" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=punkty&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Węzły; obiekty inżynieryjne">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="Autostrady_4510bdc5_f321_4b40_8e4c_5a7d0eea6d92" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=autostrady&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Autostrady">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="Drogi_ekspresowe_4cef49af_9386_42ec_bd72_e890feda6c8c" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=ekspresowe&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Drogi ekspresowe">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="Drogi_g__wne_ruchu_przyspieszonego_3be1b3dc_8dd1_4841_a89f_aad73b472204" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=glownep&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Drogi główne ruchu przyspieszonego">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="Drogi_g__wne_f221403f_1c97_4065_a368_5dd968c6a393" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=glowne&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="Drogi główne">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="PLK">
         <customproperties>
           <Option/>
         </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" id="Numery_dzia_ek_24af0f91_db74_4852_80d3_2deb44d1706a" legend_split_behavior="0" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=numery_dzialek&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow" providerKey="wms" legend_exp="" checked="Qt::Unchecked" patch_size="-1,-1" name="Numery działek">
-        <customproperties>
-          <Option type="Map">
-            <Option value="Numery działek" type="QString" name="cached_name"/>
-          </Option>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" id="Dzia_ki_ewidencyjne_z_powiat_w_4456cfe2_4915_4011_baca_1e43ab001e57" legend_split_behavior="0" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=dzialki&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow" providerKey="wms" legend_exp="" checked="Qt::Unchecked" patch_size="-1,-1" name="Działki ewidencyjne z powiatów">
-        <customproperties>
-          <Option type="Map">
-            <Option value="Działki ewidencyjne z powiatów" type="QString" name="cached_name"/>
-          </Option>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" id="Kontury_klasyfikacyjne_a22952ce_6644_4e5b_a382_c4d08b467944" legend_split_behavior="0" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=kontury&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow" providerKey="wms" legend_exp="" checked="Qt::Unchecked" patch_size="-1,-1" name="Kontury klasyfikacyjne">
-        <customproperties>
-          <Option type="Map">
-            <Option value="Kontury klasyfikacyjne" type="QString" name="cached_name"/>
-          </Option>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" id="U_ytki_gruntowe_7afb6d01_8f76_45df_b859_1cbe77c8413a" legend_split_behavior="0" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=uzytki&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow" providerKey="wms" legend_exp="" checked="Qt::Unchecked" patch_size="-1,-1" name="Użytki gruntowe">
-        <customproperties>
-          <Option type="Map">
-            <Option value="Użytki gruntowe" type="QString" name="cached_name"/>
-          </Option>
-        </customproperties>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="PLK_Stacje_i_przystanki_d5028454_1d33_4b13_bfdd_b2a4a9872470" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=WMS_SILK_stacje_przystanki&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapa.plk-sa.pl:8443/geoserver/SILK/wms" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="PLK Stacje i przystanki">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="PLK_Linie_kolejowe_1c534c03_1ee1_469a_b63c_b9a4446dc674" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=WMS_SILK_linie_kolejowe&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapa.plk-sa.pl:8443/geoserver/SILK/wms" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="PLK Linie kolejowe">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" id="PLK_Zak_ady_ea55501a_0f2c_42c4_a65c_a95d15cbabee" legend_split_behavior="0" source="crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=WMS_SILK_zaklady&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapa.plk-sa.pl:8443/geoserver/SILK/wms" providerKey="wms" legend_exp="" checked="Qt::Checked" patch_size="-1,-1" name="PLK Zakłady">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+      </layer-tree-group>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
     <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
       <extent>
-        <xmin>171678</xmin>
-        <ymin>133230</ymin>
-        <xmax>861895</xmax>
-        <ymax>774929</ymax>
+        <xmin>160828</xmin>
+        <ymin>98928.89999999999417923</ymin>
+        <xmax>876030</xmax>
+        <ymax>796522</ymax>
       </extent>
       <wgs84extent>
-        <xmin>13.89778270867844334</xmin>
-        <ymin>48.96047288481795334</ymin>
-        <xmax>24.62129115833856474</xmax>
-        <ymax>54.83787192537828759</ymax>
+        <xmin>13.70465359807247729</xmin>
+        <ymin>48.64461277730295308</ymin>
+        <xmax>24.86760089528744544</xmax>
+        <ymax>55.03198344936035369</ymax>
       </wgs84extent>
-      <id>Punkty_adresowe_2b4106cb_4389_4f0b_9b3e_502596522671</id>
-      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=prg-adresy&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej</datasource>
+      <id>W_z_y__obiekty_in_ynieryjne_cbb409a8_b15e_4bba_b9fd_fb9e2b8dd416</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=punkty&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Punkty adresowe</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>171</srsid>
-          <srid>2180</srid>
-          <authid>EPSG:2180</authid>
-          <description>ETRF2000-PL / CS92</description>
-          <projectionacronym>tmerc</projectionacronym>
-          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider>wms</provider>
-      <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="domyślny">
-        <map-layer-style name="domyślny"/>
-      </map-layer-style-manager>
-      <metadataUrls/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal mode="0" enabled="0" fetchMode="0">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <customproperties>
-        <Option type="Map">
-          <Option value="Feature" type="QString" name="identify/format"/>
-        </Option>
-      </customproperties>
-      <pipe-data-defined-properties>
-        <Option type="Map">
-          <Option value="" type="QString" name="name"/>
-          <Option name="properties"/>
-          <Option value="collection" type="QString" name="type"/>
-        </Option>
-      </pipe-data-defined-properties>
-      <pipe>
-        <provider>
-          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
-        </provider>
-        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>None</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
-        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
-        <rasterresampler maxOversampling="2"/>
-        <resamplingStage>resamplingFilter</resamplingStage>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
-      <extent>
-        <xmin>171678</xmin>
-        <ymin>133230</ymin>
-        <xmax>861895</xmax>
-        <ymax>774929</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>13.89778270867844334</xmin>
-        <ymin>48.96047288481795334</ymin>
-        <xmax>24.62129115833856474</xmax>
-        <ymax>54.83787192537828759</ymax>
-      </wgs84extent>
-      <id>Ulice_1399d7f5_2a79_4fe3_a745_9dd78bd3cca3</id>
-      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=prg-ulice&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/KrajowaIntegracjaNumeracjiAdresowej</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Ulice</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>171</srsid>
-          <srid>2180</srid>
-          <authid>EPSG:2180</authid>
-          <description>ETRF2000-PL / CS92</description>
-          <projectionacronym>tmerc</projectionacronym>
-          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider>wms</provider>
-      <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="domyślny">
-        <map-layer-style name="domyślny"/>
-      </map-layer-style-manager>
-      <metadataUrls/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal mode="0" enabled="0" fetchMode="0">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <customproperties>
-        <Option type="Map">
-          <Option value="Feature" type="QString" name="identify/format"/>
-        </Option>
-      </customproperties>
-      <pipe-data-defined-properties>
-        <Option type="Map">
-          <Option value="" type="QString" name="name"/>
-          <Option name="properties"/>
-          <Option value="collection" type="QString" name="type"/>
-        </Option>
-      </pipe-data-defined-properties>
-      <pipe>
-        <provider>
-          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
-        </provider>
-        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>None</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
-        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
-        <rasterresampler maxOversampling="2"/>
-        <resamplingStage>resamplingFilter</resamplingStage>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
-      <extent>
-        <xmin>171677</xmin>
-        <ymin>133223</ymin>
-        <xmax>861883</xmax>
-        <ymax>774924</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>13.8977728761845345</xmin>
-        <ymin>48.96041715317756626</ymin>
-        <xmax>24.62109955343882106</xmax>
-        <ymax>54.83782691975565626</ymax>
-      </wgs84extent>
-      <id>Numery_dzia_ek_24af0f91_db74_4852_80d3_2deb44d1706a</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=numery_dzialek&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Numery działek</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>171</srsid>
-          <srid>2180</srid>
-          <authid>EPSG:2180</authid>
-          <description>ETRF2000-PL / CS92</description>
-          <projectionacronym>tmerc</projectionacronym>
-          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider>wms</provider>
-      <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="domyślny">
-        <map-layer-style name="domyślny"/>
-      </map-layer-style-manager>
-      <metadataUrls/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal mode="0" enabled="0" fetchMode="0">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <customproperties>
-        <Option type="Map">
-          <Option value="Undefined" type="QString" name="identify/format"/>
-        </Option>
-      </customproperties>
-      <pipe-data-defined-properties>
-        <Option type="Map">
-          <Option value="" type="QString" name="name"/>
-          <Option name="properties"/>
-          <Option value="collection" type="QString" name="type"/>
-        </Option>
-      </pipe-data-defined-properties>
-      <pipe>
-        <provider>
-          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
-        </provider>
-        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>None</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
-        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
-        <rasterresampler maxOversampling="2"/>
-        <resamplingStage>resamplingFilter</resamplingStage>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
-      <extent>
-        <xmin>171677</xmin>
-        <ymin>133223</ymin>
-        <xmax>861883</xmax>
-        <ymax>774924</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>13.8977728761845345</xmin>
-        <ymin>48.96041715317756626</ymin>
-        <xmax>24.62109955343882106</xmax>
-        <ymax>54.83782691975565626</ymax>
-      </wgs84extent>
-      <id>Dzia_ki_ewidencyjne_z_powiat_w_4456cfe2_4915_4011_baca_1e43ab001e57</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=dzialki&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Działki ewidencyjne z powiatów</layername>
+      <layername>Węzły; obiekty inżynieryjne</layername>
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
@@ -495,23 +174,23 @@
     </maplayer>
     <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
       <extent>
-        <xmin>171677</xmin>
-        <ymin>133223</ymin>
-        <xmax>861883</xmax>
-        <ymax>774924</ymax>
+        <xmin>160828</xmin>
+        <ymin>98928.89999999999417923</ymin>
+        <xmax>876030</xmax>
+        <ymax>796522</ymax>
       </extent>
       <wgs84extent>
-        <xmin>13.8977728761845345</xmin>
-        <ymin>48.96041715317756626</ymin>
-        <xmax>24.62109955343882106</xmax>
-        <ymax>54.83782691975565626</ymax>
+        <xmin>13.70465359807247729</xmin>
+        <ymin>48.64461277730295308</ymin>
+        <xmax>24.86760089528744544</xmax>
+        <ymax>55.03198344936035369</ymax>
       </wgs84extent>
-      <id>Kontury_klasyfikacyjne_a22952ce_6644_4e5b_a382_c4d08b467944</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=kontury&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow</datasource>
+      <id>Autostrady_4510bdc5_f321_4b40_8e4c_5a7d0eea6d92</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=autostrady&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Kontury klasyfikacyjne</layername>
+      <layername>Autostrady</layername>
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
@@ -606,23 +285,23 @@
     </maplayer>
     <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
       <extent>
-        <xmin>171677</xmin>
-        <ymin>133223</ymin>
-        <xmax>861883</xmax>
-        <ymax>774924</ymax>
+        <xmin>160828</xmin>
+        <ymin>98928.89999999999417923</ymin>
+        <xmax>876030</xmax>
+        <ymax>796522</ymax>
       </extent>
       <wgs84extent>
-        <xmin>13.8977728761845345</xmin>
-        <ymin>48.96041715317756626</ymin>
-        <xmax>24.62109955343882106</xmax>
-        <ymax>54.83782691975565626</ymax>
+        <xmin>13.70465359807247729</xmin>
+        <ymin>48.64461277730295308</ymin>
+        <xmax>24.86760089528744544</xmax>
+        <ymax>55.03198344936035369</ymax>
       </wgs84extent>
-      <id>U_ytki_gruntowe_7afb6d01_8f76_45df_b859_1cbe77c8413a</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=uzytki&amp;styles&amp;url=https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow</datasource>
+      <id>Drogi_ekspresowe_4cef49af_9386_42ec_bd72_e890feda6c8c</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=ekspresowe&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Użytki gruntowe</layername>
+      <layername>Drogi ekspresowe</layername>
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
@@ -673,6 +352,561 @@
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
         <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="Html" type="QString" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" type="QString" name="name"/>
+          <Option name="properties"/>
+          <Option value="collection" type="QString" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
+      <extent>
+        <xmin>160828</xmin>
+        <ymin>98928.89999999999417923</ymin>
+        <xmax>876030</xmax>
+        <ymax>796522</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.70465359807247729</xmin>
+        <ymin>48.64461277730295308</ymin>
+        <xmax>24.86760089528744544</xmax>
+        <ymax>55.03198344936035369</ymax>
+      </wgs84extent>
+      <id>Drogi_g__wne_ruchu_przyspieszonego_3be1b3dc_8dd1_4841_a89f_aad73b472204</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=glownep&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Drogi główne ruchu przyspieszonego</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="Html" type="QString" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" type="QString" name="name"/>
+          <Option name="properties"/>
+          <Option value="collection" type="QString" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
+      <extent>
+        <xmin>160828</xmin>
+        <ymin>98928.89999999999417923</ymin>
+        <xmax>876030</xmax>
+        <ymax>796522</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.70465359807247729</xmin>
+        <ymin>48.64461277730295308</ymin>
+        <xmax>24.86760089528744544</xmax>
+        <ymax>55.03198344936035369</ymax>
+      </wgs84extent>
+      <id>Drogi_g__wne_f221403f_1c97_4065_a368_5dd968c6a393</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=glowne&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapy.geoportal.gov.pl/wss/ext/GDDKiA/SiecDrogowa</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Drogi główne</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="Html" type="QString" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" type="QString" name="name"/>
+          <Option name="properties"/>
+          <Option value="collection" type="QString" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
+      <extent>
+        <xmin>188704.71700000000419095</xmin>
+        <ymin>157816.79140666700550355</ymin>
+        <xmax>849241.7029999999795109</xmax>
+        <ymax>770185.28206110303290188</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>14.1663759566085492</xmin>
+        <ymin>49.18821409218897145</ymin>
+        <xmax>24.42006644923603176</xmax>
+        <ymax>54.79524885549660951</ymax>
+      </wgs84extent>
+      <id>PLK_Stacje_i_przystanki_d5028454_1d33_4b13_bfdd_b2a4a9872470</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=WMS_SILK_stacje_przystanki&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapa.plk-sa.pl:8443/geoserver/SILK/wms</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PLK Stacje i przystanki</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="Html" type="QString" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" type="QString" name="name"/>
+          <Option name="properties"/>
+          <Option value="collection" type="QString" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
+      <extent>
+        <xmin>188695.46137229099986143</xmin>
+        <ymin>157300.40299999999115244</ymin>
+        <xmax>849241.7029999999795109</xmax>
+        <ymax>770631.80500000005122274</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>14.16575612247752858</xmin>
+        <ymin>49.18358389734830638</ymin>
+        <xmax>24.42060029971063173</xmax>
+        <ymax>54.79926282144738536</ymax>
+      </wgs84extent>
+      <id>PLK_Linie_kolejowe_1c534c03_1ee1_469a_b63c_b9a4446dc674</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=WMS_SILK_linie_kolejowe&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapa.plk-sa.pl:8443/geoserver/SILK/wms</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PLK Linie kolejowe</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option value="Html" type="QString" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option value="" type="QString" name="name"/>
+          <Option name="properties"/>
+          <Option value="collection" type="QString" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation colorizeOn="0" colorizeBlue="128" invertColors="0" grayscaleMode="0" saturation="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" type="raster" maxScale="0">
+      <extent>
+        <xmin>171677.55518959500477649</xmin>
+        <ymin>133223.72515246301190928</ymin>
+        <xmax>861895.74698828195687383</xmax>
+        <ymax>774923.74747342604678124</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.89778175079377043</xmin>
+        <ymin>48.96041619475980156</ymin>
+        <xmax>24.62129617979192986</xmax>
+        <ymax>54.83782470965022782</ymax>
+      </wgs84extent>
+      <id>PLK_Zak_ady_ea55501a_0f2c_42c4_a65c_a95d15cbabee</id>
+      <datasource>crs=EPSG:2180&amp;dpiMode=7&amp;format=image/png&amp;layers=WMS_SILK_zaklady&amp;styles&amp;tilePixelRatio=0&amp;url=https://mapa.plk-sa.pl:8443/geoserver/SILK/wms</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PLK Zakłady</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
         <Private>0</Private>
       </flags>
       <temporal mode="0" enabled="0" fetchMode="0">
