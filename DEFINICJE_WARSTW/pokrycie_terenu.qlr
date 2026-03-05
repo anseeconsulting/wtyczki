@@ -64,42 +64,42 @@
         <customproperties>
           <Option/>
         </customproperties>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="CLC_Plus_2023_13724045_0ce5_4c6c_a8aa_65f501d9f5d1" source="../../DANE/26-Copernicus/CLC_Backbone/clc_backbone_pl_2023_10m.tif" legend_exp="" name="CLC Plus 2023" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="CLC_Plus_2023_13724045_0ce5_4c6c_a8aa_65f501d9f5d1" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/CLC_Backbone/clc_backbone_pl_2023_10m.tif" legend_exp="" name="CLC Plus 2023" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Obszary_wodne_i_wilgotne_2018_a627ef9c_dd24_430b_ab16_9d45b78497cf" source="../../DANE/26-Copernicus/Hydro/water_and_wetness_pl_2018_10m.tif" legend_exp="" name="Obszary wodne i wilgotne 2018" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Obszary_wodne_i_wilgotne_2018_a627ef9c_dd24_430b_ab16_9d45b78497cf" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Hydro/water_and_wetness_pl_2018_10m.tif" legend_exp="" name="Obszary wodne i wilgotne 2018" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2023_316733d2_7410_4856_b961_f717b48a480c" source="../../DANE/26-Copernicus/Grassland/grassland_pl_2023_10m.tif" legend_exp="" name="Roślinność trawiasta 2023" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2023_316733d2_7410_4856_b961_f717b48a480c" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2023_10m.tif" legend_exp="" name="Roślinność trawiasta 2023" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2021_a5dfe0d9_ac2e_45b4_a3ed_aa82114af54c" source="../../DANE/26-Copernicus/Grassland/grassland_pl_2021_10m.tif" legend_exp="" name="Roślinność trawiasta 2021" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2021_a5dfe0d9_ac2e_45b4_a3ed_aa82114af54c" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2021_10m.tif" legend_exp="" name="Roślinność trawiasta 2021" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2019_9e06ed21_7148_4c71_a559_d3045e700283" source="../../DANE/26-Copernicus/Grassland/grassland_pl_2019_10m.tif" legend_exp="" name="Roślinność trawiasta 2019" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2019_9e06ed21_7148_4c71_a559_d3045e700283" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2019_10m.tif" legend_exp="" name="Roślinność trawiasta 2019" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2015_9795f0a4_14a9_4ed8_8d93_b26e53a9fcba" source="../../DANE/26-Copernicus/Grassland/grassland_pl_2015_20m.tif" legend_exp="" name="Roślinność trawiasta 2015" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta_2015_9795f0a4_14a9_4ed8_8d93_b26e53a9fcba" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2015_20m.tif" legend_exp="" name="Roślinność trawiasta 2015" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta___zmiany_dla_2018_2021_3d85a086_8a3c_4e65_b914_c30938ef888e" source="../../DANE/26-Copernicus/Grassland/grassland_change_pl_2018_2021_20m.tif" legend_exp="" name="Roślinność trawiasta - zmiany dla 2018-2021" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta___zmiany_dla_2018_2021_3d85a086_8a3c_4e65_b914_c30938ef888e" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_change_pl_2018_2021_20m.tif" legend_exp="" name="Roślinność trawiasta - zmiany dla 2018-2021" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta___zmiany_dla_2015_2018_e3643d04_7dde_43ac_8d46_22cdf7ca9f09" source="../../DANE/26-Copernicus/Grassland/grassland_change_pl_2015_2018_20m.tif" legend_exp="" name="Roślinność trawiasta - zmiany dla 2015-2018" expanded="0">
+        <layer-tree-layer legend_split_behavior="0" providerKey="gdal" checked="Qt::Unchecked" patch_size="-1,-1" id="Ro_linno___trawiasta___zmiany_dla_2015_2018_e3643d04_7dde_43ac_8d46_22cdf7ca9f09" source="G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_change_pl_2015_2018_20m.tif" legend_exp="" name="Roślinność trawiasta - zmiany dla 2015-2018" expanded="0">
           <customproperties>
             <Option/>
           </customproperties>
@@ -9266,7 +9266,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748682901474837</ymax>
       </wgs84extent>
       <id>CLC_Plus_2023_13724045_0ce5_4c6c_a8aa_65f501d9f5d1</id>
-      <datasource>../../DANE/26-Copernicus/CLC_Backbone/clc_backbone_pl_2023_10m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/CLC_Backbone/clc_backbone_pl_2023_10m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9500,7 +9500,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748682901474837</ymax>
       </wgs84extent>
       <id>Obszary_wodne_i_wilgotne_2018_a627ef9c_dd24_430b_ab16_9d45b78497cf</id>
-      <datasource>../../DANE/26-Copernicus/Hydro/water_and_wetness_pl_2018_10m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Hydro/water_and_wetness_pl_2018_10m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9715,7 +9715,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748682901474837</ymax>
       </wgs84extent>
       <id>Ro_linno___trawiasta_2023_316733d2_7410_4856_b961_f717b48a480c</id>
-      <datasource>../../DANE/26-Copernicus/Grassland/grassland_pl_2023_10m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2023_10m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9942,7 +9942,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748682901474837</ymax>
       </wgs84extent>
       <id>Ro_linno___trawiasta_2021_a5dfe0d9_ac2e_45b4_a3ed_aa82114af54c</id>
-      <datasource>../../DANE/26-Copernicus/Grassland/grassland_pl_2021_10m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2021_10m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10169,7 +10169,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748682901474837</ymax>
       </wgs84extent>
       <id>Ro_linno___trawiasta_2019_9e06ed21_7148_4c71_a559_d3045e700283</id>
-      <datasource>../../DANE/26-Copernicus/Grassland/grassland_pl_2019_10m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2019_10m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10396,7 +10396,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748666896901881</ymax>
       </wgs84extent>
       <id>Ro_linno___trawiasta_2015_9795f0a4_14a9_4ed8_8d93_b26e53a9fcba</id>
-      <datasource>../../DANE/26-Copernicus/Grassland/grassland_pl_2015_20m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_pl_2015_20m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10623,7 +10623,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748666896901881</ymax>
       </wgs84extent>
       <id>Ro_linno___trawiasta___zmiany_dla_2018_2021_3d85a086_8a3c_4e65_b914_c30938ef888e</id>
-      <datasource>../../DANE/26-Copernicus/Grassland/grassland_change_pl_2018_2021_20m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_change_pl_2018_2021_20m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10835,7 +10835,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>54.84748666896901881</ymax>
       </wgs84extent>
       <id>Ro_linno___trawiasta___zmiany_dla_2015_2018_e3643d04_7dde_43ac_8d46_22cdf7ca9f09</id>
-      <datasource>../../DANE/26-Copernicus/Grassland/grassland_change_pl_2015_2018_20m.tif</datasource>
+      <datasource>G:/Dyski współdzielone/1_Public/QGiS/DANE/26-Copernicus/Grassland/grassland_change_pl_2015_2018_20m.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
