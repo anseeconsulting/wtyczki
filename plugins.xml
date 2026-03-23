@@ -1,61 +1,61 @@
 <plugins>
   <pyqgis_plugin name="Uzupełnianki - podpinacz" version="wersja 1.0.5">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
-    <description>Podpina surowe warstwy z terenu, dopisuje kolumny i podpina bazę danych z gatunkami tak, że przy uzupełnianiu nazwy pojawia się pole z podpowiedziami. Dodawane są dodatkowe pola do uzupełnienia wraz z możliwymi opcjami do wyboru (słownikami).  </description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/podpinacz.zip?raw=true</download_url>
+    <description>Podpina surowe warstwy z terenu, dopisuje kolumny i podpina bazę danych z gatunkami tak, że przy uzupełnianiu nazwy pojawia się pole z podpowiedziami. Dodawane są dodatkowe pola do uzupełnienia wraz z możliwymi opcjami do wyboru (słownikami).</description>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/podpinacz.zip</download_url>
   </pyqgis_plugin>
 
   <pyqgis_plugin name="Uzupełnianki - warstwa ostateczna" version="wersja 1.0.2">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Tworzy warstwę ostateczną do przekazania, z odpowiednio sformatowanymi polami. Dopisywane są dodatkowe informacje (pozostałe nazwy, status ochrony itp.). Działa najlepiej z warstwami wygenerowanymi wtyczką /Uzupełnianki - podpinacz/, może być wykorzystywany także z każdą inną warstwą.</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/podpinacz_krok_3.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/podpinacz_krok_3.zip</download_url>
   </pyqgis_plugin>
-  
+
   <pyqgis_plugin name="LP generator" version="wersja 1.0.0">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin uzupełnia kolumnę z liczbą porządkową/id od zadanego numeru zgodnie z kolenością ustaloną według zadanej kolumny.</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/lpgenerator.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/lpgenerator.zip</download_url>
   </pyqgis_plugin>
-  
+
   <pyqgis_plugin name="WMS list remove" version="wersja 1.0">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Kasuje listę WMSów aby podpiąć nową, aktualną z pliku</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/wmslistremove.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/wmslistremove.zip</download_url>
   </pyqgis_plugin>
 
   <pyqgis_plugin name="Oceny" version="wersja 2.9">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Robi przecięcia warstw inwentaryzacji z warstwami projektowymi</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/oceny.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/oceny.zip</download_url>
   </pyqgis_plugin>
-  
+
   <pyqgis_plugin name="Batodcinek" version="wersja 1.1">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin zlicza liczbę nagrań gatunków nietoperzy z podziałem na odcinki funkcjonalne oraz datę</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/batodcinek.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/batodcinek.zip</download_url>
   </pyqgis_plugin>
-  
+
   <pyqgis_plugin name="Projekt startowy" version="wersja 3.0">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Ładuje projekt startwy lub poszczewgólne grupy warstw</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/projekt_startowy.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/projekt_startowy.zip</download_url>
   </pyqgis_plugin>
-  
+
   <pyqgis_plugin name="Umweltaspekte" version="wersja 1.1">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin podający odległości od obiektów dla wybranych warstw tematycznych</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/umweltaspekte.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/umweltaspekte.zip</download_url>
   </pyqgis_plugin>
 
   <pyqgis_plugin name="BDOT downloader" version="wersja 1.0">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin do rozpakowywania i grupowania danych BDOT10k</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/bdot_downloader.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/bdot_downloader.zip</download_url>
   </pyqgis_plugin>
 
   <pyqgis_plugin name="Scalanie BDOT10k" version="wersja 1.9.0">
     <qgis_minimum_version>3.22.0</qgis_minimum_version>
     <description>Narzędzie pozwala na łączenie wybranych warstw z BDOT10k bez konieczności ich rozpakowywania.</description>
-    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/scalanie_bdot10k_plugin_v1_9_0.zip?raw=true</download_url>
+    <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/scalanie_bdot10k_plugin_v1_9_0.zip</download_url>
   </pyqgis_plugin>
 </plugins>
