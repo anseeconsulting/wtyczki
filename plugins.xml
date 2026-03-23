@@ -11,11 +11,9 @@
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/podpinacz_krok_3.zip?raw=true</download_url>
   </pyqgis_plugin>
   
-  
   <pyqgis_plugin name="LP generator" version="wersja 1.0.0">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
-    <description>Plugin uzupełnia kolumnę z liczbą porządkową/id od zadanego numeru zgodnie z kolenością ustaloną według zadanej kolumny.
-</description>
+    <description>Plugin uzupełnia kolumnę z liczbą porządkową/id od zadanego numeru zgodnie z kolenością ustaloną według zadanej kolumny.</description>
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/lpgenerator.zip?raw=true</download_url>
   </pyqgis_plugin>
   
@@ -25,7 +23,7 @@
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/wmslistremove.zip?raw=true</download_url>
   </pyqgis_plugin>
 
-   <pyqgis_plugin name="Oceny" version="wersja 2.9">
+  <pyqgis_plugin name="Oceny" version="wersja 2.9">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Robi przecięcia warstw inwentaryzacji z warstwami projektowymi</description>
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/oceny.zip?raw=true</download_url>
@@ -37,13 +35,13 @@
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/batodcinek.zip?raw=true</download_url>
   </pyqgis_plugin>
   
-   <pyqgis_plugin name="Projekt startowy" version="wersja 3.0">
+  <pyqgis_plugin name="Projekt startowy" version="wersja 3.0">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Ładuje projekt startwy lub poszczewgólne grupy warstw</description>
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/projekt_startowy.zip?raw=true</download_url>
   </pyqgis_plugin>
   
-   <pyqgis_plugin name="Umweltaspekte" version="wersja 1.1">
+  <pyqgis_plugin name="Umweltaspekte" version="wersja 1.1">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin podający odległości od obiektów dla wybranych warstw tematycznych</description>
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/umweltaspekte.zip?raw=true</download_url>
@@ -53,5 +51,11 @@
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin do rozpakowywania i grupowania danych BDOT10k</description>
     <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/bdot_downloader.zip?raw=true</download_url>
+  </pyqgis_plugin>
+
+  <pyqgis_plugin name="Scalanie BDOT10k" version="wersja 1.9.0">
+    <qgis_minimum_version>3.22.0</qgis_minimum_version>
+    <description>Narzędzie pozwala na łączenie wybranych warstw z BDOT10k bez konieczności ich rozpakowywania.</description>
+    <download_url>https://github.com/anseeconsulting/wtyczki/blob/main/scalanie_bdot10k_plugin_v1_9_0.zip?raw=true</download_url>
   </pyqgis_plugin>
 </plugins>
