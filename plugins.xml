@@ -67,7 +67,7 @@ Wystarczy wybrać folder z pobranymi danymi BDOT10k w formacie ZIP/RAR.<br><br>
 <b>UWAGA!!!</b><br>
 W przypadku danych pobranych w formacie SHP należy je rozpakować do osobnego folderu i wskazać go w narzędziu.<br>
 W przypadku danych pobranych w formacie GPKG nie ma potrzeby ich rozpakowywania.
-]]></description>
+    ]]></description>
     <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/scalanie_bdot10k_plugin_v1_9_0.zip</download_url>
   </pyqgis_plugin>
 </plugins>
