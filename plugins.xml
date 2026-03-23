@@ -56,18 +56,18 @@
   <pyqgis_plugin name="Scalanie BDOT10k" version="wersja 1.9.0">
     <qgis_minimum_version>3.22.0</qgis_minimum_version>
     <description><![CDATA[
-<b>Narzędzie pozwala na łączenie wybranych warstw z BDOT10k bez konieczności ich rozpakowywania.</b><br><br>
+<p><b>Narzędzie pozwala na łączenie wybranych warstw z BDOT10k bez konieczności ich rozpakowywania.</b></p>
 
-Dane BDOT10k dla obszaru całej Polski zajmują wiele gigabajtów, a dodatkowo w formacie SHP podzielone są na województwa.<br><br>
+<p>Dane BDOT10k dla obszaru całej Polski zajmują wiele gigabajtów, a dodatkowo w formacie SHP podzielone są na województwa.</p>
 
-Narzędzie umożliwia wskazanie wybranych warstw i ich połączenie bez konieczności rozpakowywania wszystkich paczek danych.<br><br>
+<p>Narzędzie umożliwia wskazanie wybranych warstw i ich połączenie bez konieczności rozpakowywania wszystkich paczek danych.</p>
 
-Wystarczy wybrać folder z pobranymi danymi BDOT10k w formacie ZIP/RAR.<br><br>
+<p>Wystarczy wybrać folder z pobranymi danymi BDOT10k w formacie ZIP/RAR.</p>
 
-<b>UWAGA!!!</b><br>
+<p><b>UWAGA!!!</b><br>
 W przypadku danych pobranych w formacie SHP należy je rozpakować do osobnego folderu i wskazać go w narzędziu.<br>
-W przypadku danych pobranych w formacie GPKG nie ma potrzeby ich rozpakowywania.
-    ]]></description>
+W przypadku danych pobranych w formacie GPKG nie ma potrzeby ich rozpakowywania.</p>
+]]></description>
     <download_url>https://raw.githubusercontent.com/anseeconsulting/wtyczki/main/scalanie_bdot10k_plugin_v1_9_0.zip</download_url>
   </pyqgis_plugin>
 </plugins>
